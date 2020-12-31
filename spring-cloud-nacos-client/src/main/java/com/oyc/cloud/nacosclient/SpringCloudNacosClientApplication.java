@@ -1,13 +1,13 @@
-package com.oyc.cloud;
+package com.oyc.cloud.nacosclient;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringCloudNacosServerApplication {
+public class SpringCloudNacosClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudNacosServerApplication.class, args);
+        SpringApplication.run(SpringCloudNacosClientApplication.class, args);
     }
 
 }
